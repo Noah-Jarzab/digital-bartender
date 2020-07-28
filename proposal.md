@@ -7,15 +7,15 @@ Digital bartender is a React-based app to help the user discover new cocktails f
 ## Wire Frames
 **Home Page**
 
-![Welcome wire frame](/WireFrame_img/IMG_0746(1).jpg)
+![Welcome wire frame](/proposal_imgs/IMG_0746(1).jpg)
 
 **Search Page**
 
-![Search wire frame](/WireFrame_img/IMG_0747.jpg)
+![Search wire frame](/proposal_imgs/IMG_0747.jpg)
 
 **Cocktail Page**
 
-![Cocktail wire frame](/WireFrame_img/IMG_0748.jpg)
+![Cocktail wire frame](/proposal_imgs/IMG_0748.jpg)
 
 ## User Stories
 
@@ -380,7 +380,7 @@ dateModified: "2017-04-24 22:00:19"
 
 ## Component Hierarchy
 
-![Hierarchy](/WireFrame_img/IMG_0749.jpg)
+![Hierarchy](/proposal_imgs/IMG_0749.jpg)
 
 Component | Description | State/Props
 --------- | ----------- | -----------
