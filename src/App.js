@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
   const apiKey = process.env.REACT_APP_MYAPI_KEY;
+  
+  render() {
   return (
     <div className="App">
       <header className="App-header">
@@ -22,6 +30,7 @@ function App() {
       </header>
     </div>
   );
+}
 }
 
 export default App;
