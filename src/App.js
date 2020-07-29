@@ -20,14 +20,12 @@ class App extends Component {
 			});
 	}
 	render() {
-		console.log(this.state.cocktail)
-		console.log(this.props.cocktail)
+		// console.log(this.state.cocktail)
+		// console.log(this.props.cocktail)
 		const apiKey = process.env.REACT_APP_MYAPI_KEY;
 		return (
 			<main className='App'>
 				<Header />
-				{/* 
-				*/}
 				<Route
 				exact path='/'
 				render={() => {
