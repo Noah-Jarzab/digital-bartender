@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route, Link } from 'react-router-dom';
 import Header from './Header';
 import Cocktail from './Cocktail';
+import Browse from './Browse';
 import Home from './Home';
 import './App.css';
 
@@ -33,7 +34,13 @@ class App extends Component {
 				}}
 				/>
 				<Route 
-				path='/cocktail/'
+				path='/browse' 
+				render={() => {
+					return <Browse />
+				}}
+				/>
+				<Route 
+				path='/cocktail'
 				render={() => {
 					return <Cocktail cocktail={this.state.cocktail} />;
 				}}

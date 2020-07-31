@@ -6,7 +6,7 @@ class Header extends Component {
         return (
 					<nav>
 						<Link to='/'>Home</Link>
-						<p>Browse</p>
+						<Link to='/browse'>Browse</Link>
 						<p>Search</p>
 					</nav>
 				);

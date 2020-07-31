@@ -5,9 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-#root {
-  background-image: url('/proposal_imgs/assorted-wine-bottles-1283219.jpg');
+  background-image: url('./assorted-wine-bottles-1283219.jpg');
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 code {
