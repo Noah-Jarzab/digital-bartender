@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 
 class Cocktail extends Component {
     render() {
-        // let result = this.props.cocktail.find(
-        //     (cocktail) => cocktail.strDrink === this.props.match.params.cocktail
-        // );
-        console.log(this.props);
         return (
 					<div className='detail-veiw'>
 						<img

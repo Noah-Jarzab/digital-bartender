@@ -23,6 +23,11 @@ button {
   color: gray;
 }
 
+.selectionResults {
+  color: white;
+  text-align: center;
+}
+
 button:hover {
   color: white;
   opacity: 0.6;
