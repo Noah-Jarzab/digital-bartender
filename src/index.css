@@ -5,9 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./assorted-wine-bottles-1283219.jpg');
+  background-image: url('./pexels-lucian-petronel-potlog-3566120.jpg');
   background-attachment: fixed;
   background-size: cover;
+  background-position: 50%;
 }
 
 code {

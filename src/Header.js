@@ -5,9 +5,9 @@ class Header extends Component {
     render() {
         return (
 					<nav>
-						<Link to='/'>Home</Link>
-						<Link to='/browse'>Browse</Link>
-						<p>Search</p>
+						<Link to='/' style={{textDecoration: 'none'}}>Home</Link>
+						<Link to='/browse' style={{textDecoration: 'none'}}>Browse</Link>
+						{/* <p>Search</p> */}
 					</nav>
 				);
     }

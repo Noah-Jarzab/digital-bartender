@@ -18,12 +18,48 @@ class Browse extends Component {
 
     //     })
     // }
+    handleClick = () => {
+        fetch(`${browseUrl}${event.target.value}`)
+        .then(res => res.json())
+        .then(res => {
+            this.setState({
+                cocktail: res.drinks
+            })
+            console.log(this.state)
+        })
+    }
+
     render() {
         return (
-            <div>
-                
-            </div>
-        );
+					<div className='buttons'>
+						<button onClick={this.handleClick}>A</button>
+						<button onClick={this.handleClick}>B</button>
+						<button>C</button>
+						<button>D</button>
+						<button>E</button>
+						<button>F</button>
+						<button>G</button>
+						<button>H</button>
+						<button>I</button>
+						<button>J</button>
+						<button>K</button>
+						<button>L</button>
+						<button>M</button>
+						<button>N</button>
+						<button>O</button>
+						<button>P</button>
+						<button>Q</button>
+                        <button>R</button>
+                        <button>S</button>
+                        <button>T</button>
+                        <button>U</button>
+                        <button>V</button>
+                        <button>W</button>
+                        <button>X</button>
+                        <button>Y</button>
+                        <button>Z</button>
+					</div>
+				);
     }
 }
 
