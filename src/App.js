@@ -21,7 +21,7 @@ class App extends Component {
 			});
 	}
 	render() {
-		console.log(this.state)
+		// console.log(this.state)
 		// console.log(this.props.cocktail)
 		const apiKey = process.env.REACT_APP_MYAPI_KEY;
 		return (

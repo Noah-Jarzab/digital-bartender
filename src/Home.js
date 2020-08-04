@@ -6,7 +6,7 @@ class Home extends Component {
         return (
 					<div className='home'>
 						<h2>{this.props.cocktail.strDrink}</h2>
-						<Link to='/cocktail/'>
+						<Link to={`/cocktail/${this.props.cocktail.strDrink}`}>
 							<img
 								src={this.props.cocktail.strDrinkThumb}
 								alt={this.props.cocktail.strDrink}
