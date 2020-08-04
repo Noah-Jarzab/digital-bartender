@@ -5,6 +5,7 @@ class Home extends Component {
     render() {
         return (
 					<div className='home'>
+                        <h1>Cocktail of the Day</h1>
 						<h2>{this.props.cocktail.strDrink}</h2>
 						<Link to={`/cocktail/${this.props.cocktail.strDrink}`}>
 							<img
