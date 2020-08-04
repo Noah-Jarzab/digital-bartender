@@ -18,7 +18,7 @@ nav {
 }
 
 button {
-  font-size: 2em;
+  font-size: 20px;
   background-color: black;
   color: gray;
 }
@@ -37,6 +37,7 @@ button:hover {
 .buttons {
   display: flex;
   flex-flow: wrap;
+  justify-content: center;
 }
 
 .detail-veiw {

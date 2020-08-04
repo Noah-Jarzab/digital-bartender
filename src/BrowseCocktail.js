@@ -8,7 +8,8 @@ class BrowseCocktail extends Component {
 	// 	};
 	// }
 	render() {
-        let result = this.props.cocktail.find(
+        console.log(this.state)
+        let result = this.state.cocktail.find(
             (cocktails) => cocktails.strDrink === this.props.match.params.cocktails
         );
 		return (

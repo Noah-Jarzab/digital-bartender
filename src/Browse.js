@@ -25,6 +25,7 @@ class Browse extends Component {
 			});
 	};
 	render() {
+        console.log(this.state)
 		return (
 			<div className='buttons'>
 				<button onClick={this.handleClick}>A</button>
