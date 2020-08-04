@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Link, Route } from 'react-router-dom';
-import BrowseCocktail from './BrowseCocktail';
 
 const browseUrl = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?f=';
 
@@ -25,7 +23,6 @@ class Browse extends Component {
 			});
 	};
 	render() {
-        console.log(this.state)
 		return (
 			<div className='buttons'>
 				<button onClick={this.handleClick}>A</button>
@@ -58,20 +55,48 @@ class Browse extends Component {
 				{this.state.cocktail.map((cocktail) => {
 					return (
 						<span className='selectionResults'>
-                                <Route
-                                    path={'/browseCocktail/'}
-                                    render={() => {
-                                        return <BrowseCocktail cocktail={this.state.cocktail} />;
-                                    }}
-                                />
 							<h3>{cocktail.strDrink}</h3>
-							<Link to={`/browseCocktail/${cocktail.strDrink}`}>
 								<img
 									src={cocktail.strDrinkThumb}
 									key={cocktail.strDrink}
 									alt={cocktail.strDrink}
 								/>
-							</Link>
+							<span>
+								{cocktail.strMeasure1} {cocktail.strIngredient1}
+							</span>
+							<br></br>
+							<span>
+								{cocktail.strMeasure2} {cocktail.strIngredient2}
+							</span>
+							<br></br>
+							<span>
+								{cocktail.strMeasure3} {cocktail.strIngredient3}
+							</span>
+							<br></br>
+							<span>
+								{cocktail.strMeasure4} {cocktail.strIngredient4}
+							</span>
+							<br></br>
+							<span>
+								{cocktail.strMeasure5} {cocktail.strIngredient5}
+							</span>
+							<br></br>
+							<span>
+								{cocktail.strMeasure6} {cocktail.strIngredient6}
+							</span>
+							<br></br>
+							<span>
+								{cocktail.strMeasure7} {cocktail.strIngredient7}
+							</span>
+							<br></br>
+							<span>
+								{cocktail.strMeasure8} {cocktail.strIngredient8}
+							</span>
+							<br></br>
+							<span>
+								{cocktail.strMeasure9} {cocktail.strIngredient9}
+							</span>
+							<p>{cocktail.strInstructions}</p>
 						</span>
 					);
 				})}

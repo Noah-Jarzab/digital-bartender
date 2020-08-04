@@ -21,8 +21,6 @@ class App extends Component {
 			});
 	}
 	render() {
-		// console.log(this.state)
-		console.log(this.state.cocktail)
 		// const apiKey = process.env.REACT_APP_MYAPI_KEY;
 		return (
 			<main className='App' key={this.state.idDrink}>
