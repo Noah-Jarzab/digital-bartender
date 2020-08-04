@@ -54,7 +54,7 @@ class Browse extends Component {
 
 				{this.state.cocktail.map((cocktail) => {
 					return (
-						<span className='selectionResults'>
+						<span className='selectionResults' key={cocktail.idDrink}>
 							<h3>{cocktail.strDrink}</h3>
 								<img
 									src={cocktail.strDrinkThumb}
